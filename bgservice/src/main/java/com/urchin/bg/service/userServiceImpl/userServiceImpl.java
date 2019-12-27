@@ -1,8 +1,8 @@
-package com.urchin.springboot.service.userServiceImpl;
+package com.urchin.bg.service.userServiceImpl;
 
-import com.urchin.springboot.dao.loginDao;
-import com.urchin.springboot.entity.user;
-import com.urchin.springboot.service.userService;
+import com.urchin.bg.dao.loginDao;
+import com.urchin.bg.entity.user;
+import com.urchin.bg.service.userService;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
 
@@ -33,9 +33,8 @@ public class userServiceImpl implements userService {
     public int delUser() {
         return delUser();
     }
-
     @Override
-    public int upUser(user user) {
+    public int upUser(com.urchin.bg.entity.user user) {
         return upUser(user);
     }
 }

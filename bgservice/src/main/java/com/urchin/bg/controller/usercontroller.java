@@ -1,6 +1,5 @@
-package com.urchin.springboot.controller;
-
-import com.urchin.springboot.service.userService;
+package com.urchin.bg.controller;
+import com.urchin.bg.service.userService;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Controller;
 import org.springframework.web.bind.annotation.RequestMapping;

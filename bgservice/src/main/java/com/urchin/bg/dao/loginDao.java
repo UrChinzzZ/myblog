@@ -1,5 +1,6 @@
 package com.urchin.bg.dao;
-import com.urchin.springboot.entity.user;
+
+import com.urchin.bg.entity.user;
 import org.springframework.stereotype.Repository;
 
 import java.util.Map;

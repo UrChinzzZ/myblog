@@ -2,7 +2,7 @@
 <project version="4">
   <component name="ProjectModuleManager">
     <modules>
-      <module fileurl="file://$PROJECT_DIR$/.idea/bg.iml" filepath="$PROJECT_DIR$/.idea/bg.iml" />
+      <module fileurl="file://$PROJECT_DIR$/bgservice/bg.iml" filepath="$PROJECT_DIR$/bgservice/bg.iml" />
     </modules>
   </component>
 </project>

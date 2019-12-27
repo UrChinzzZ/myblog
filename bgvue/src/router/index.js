@@ -1,28 +1,19 @@
-import Vue from "vue";
-import VueRouter from "vue-router";
-import Home from "../views/Home.vue";
+/* eslint-disable no-unused-vars */
+import Vue from "vue"; //引入 Vue
+import VueRouter from "vue-router"; //引入 Vue 路由
+Vue.use(VueRouter); //安装插件
 
-Vue.use(VueRouter);
-
-const routes = [
-  {
-    path: "/",
-    name: "home",
-    component: Home
-  },
-  {
-    path: "/about",
-    name: "about",
-    // route level code-splitting
-    // this generates a separate chunk (about.[hash].js) for this route
-    // which is lazy-loaded when the route is visited.
-    component: () =>
-      import(/* webpackChunkName: "about" */ "../views/About.vue")
-  }
+//创建路由器列表
+export const constantRouterMap = [
+  //配置默认的路径，默认显示登录页
+  { path: "/", component: () => import("@/views/login") },
+  //配置登录成功页面，使用时需要使用 path 路径来实现跳转
+  { path: "/success", component: () => import("@/views/success") },
+  //配置登录失败页面，使用时需要使用 path 路径来实现跳转
+  { path: "/error", component: () => import("@/views/error"), hidden: true }
 ];
-
-const router = new VueRouter({
-  routes
+export default new VueRouter({
+  // mode: 'history', //后端支持可开
+  scrollBehavior: () => ({ y: 0 }),
+  routes: constantRouterMap //指定路由列表
 });
-
-export default router;

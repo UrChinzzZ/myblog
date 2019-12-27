@@ -1,6 +1,6 @@
-package com.urchin.springboot.service;
+package com.urchin.bg.service;
 
-import com.urchin.springboot.entity.user;
+import com.urchin.bg.entity.user;
 import java.util.Map;
 
 /**

@@ -1,4 +1,4 @@
-package com.urchin.springboot.controller;
+package com.urchin.bg.controller;
 
 import org.springframework.stereotype.Controller;
 import org.springframework.ui.Model;

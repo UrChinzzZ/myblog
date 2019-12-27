@@ -1,0 +1,108 @@
+2019-12-27 14:23:08 下午 [Thread: http-nio-8089-exec-1][ Class:druid.sql.Connection >> Method: com.alibaba.druid.filter.logging.Log4jFilter.connectionLog(Log4jFilter.java:132) ]
+DEBUG:{conn-10001,procId-86} connected
+2019-12-27 14:23:08 下午 [Thread: http-nio-8089-exec-1][ Class:druid.sql.Connection >> Method: com.alibaba.druid.filter.logging.Log4jFilter.connectionLog(Log4jFilter.java:132) ]
+DEBUG:{conn-10002,procId-87} connected
+2019-12-27 14:23:08 下午 [Thread: http-nio-8089-exec-1][ Class:druid.sql.Connection >> Method: com.alibaba.druid.filter.logging.Log4jFilter.connectionLog(Log4jFilter.java:132) ]
+DEBUG:{conn-10003,procId-88} connected
+2019-12-27 14:23:08 下午 [Thread: http-nio-8089-exec-1][ Class:druid.sql.Connection >> Method: com.alibaba.druid.filter.logging.Log4jFilter.connectionLog(Log4jFilter.java:132) ]
+DEBUG:{conn-10004,procId-89} connected
+2019-12-27 14:23:08 下午 [Thread: http-nio-8089-exec-1][ Class:druid.sql.Connection >> Method: com.alibaba.druid.filter.logging.Log4jFilter.connectionLog(Log4jFilter.java:132) ]
+DEBUG:{conn-10005,procId-90} connected
+2019-12-27 14:23:08 下午 [Thread: http-nio-8089-exec-1][ Class:druid.sql.Connection >> Method: com.alibaba.druid.filter.logging.Log4jFilter.connectionLog(Log4jFilter.java:132) ]
+DEBUG:{conn-10005} pool-connect
+2019-12-27 14:23:08 下午 [Thread: http-nio-8089-exec-1][ Class:druid.sql.Statement >> Method: com.alibaba.druid.filter.logging.Log4jFilter.statementLog(Log4jFilter.java:137) ]
+DEBUG:{conn-10005, pstmt-20000} created. select  * from  user
+2019-12-27 14:23:08 下午 [Thread: http-nio-8089-exec-1][ Class:druid.sql.Statement >> Method: com.alibaba.druid.filter.logging.Log4jFilter.statementLog(Log4jFilter.java:137) ]
+DEBUG:{conn-10005, pstmt-20000} Parameters : []
+2019-12-27 14:23:08 下午 [Thread: http-nio-8089-exec-1][ Class:druid.sql.Statement >> Method: com.alibaba.druid.filter.logging.Log4jFilter.statementLog(Log4jFilter.java:137) ]
+DEBUG:{conn-10005, pstmt-20000} Types : []
+2019-12-27 14:23:08 下午 [Thread: http-nio-8089-exec-1][ Class:druid.sql.Statement >> Method: com.alibaba.druid.filter.logging.Log4jFilter.statementLog(Log4jFilter.java:137) ]
+DEBUG:{conn-10005, pstmt-20000} executed. 8.792355 millis. select  * from  user
+2019-12-27 14:23:08 下午 [Thread: http-nio-8089-exec-1][ Class:druid.sql.ResultSet >> Method: com.alibaba.druid.filter.logging.Log4jFilter.resultSetLog(Log4jFilter.java:142) ]
+DEBUG:{conn-10005, pstmt-20000, rs-50000} open
+2019-12-27 14:23:08 下午 [Thread: http-nio-8089-exec-1][ Class:druid.sql.ResultSet >> Method: com.alibaba.druid.filter.logging.Log4jFilter.resultSetLog(Log4jFilter.java:142) ]
+DEBUG:{conn-10005, pstmt-20000, rs-50000} Header: [id, username, password]
+2019-12-27 14:23:08 下午 [Thread: http-nio-8089-exec-1][ Class:druid.sql.ResultSet >> Method: com.alibaba.druid.filter.logging.Log4jFilter.resultSetLog(Log4jFilter.java:142) ]
+DEBUG:{conn-10005, pstmt-20000, rs-50000} Result: [1, urchin, ruchin]
+2019-12-27 14:23:08 下午 [Thread: http-nio-8089-exec-1][ Class:druid.sql.ResultSet >> Method: com.alibaba.druid.filter.logging.Log4jFilter.resultSetLog(Log4jFilter.java:142) ]
+DEBUG:{conn-10005, pstmt-20000, rs-50000} closed
+2019-12-27 14:23:08 下午 [Thread: http-nio-8089-exec-1][ Class:druid.sql.Statement >> Method: com.alibaba.druid.filter.logging.Log4jFilter.statementLog(Log4jFilter.java:137) ]
+DEBUG:{conn-10005, pstmt-20000} closed
+2019-12-27 14:23:08 下午 [Thread: http-nio-8089-exec-1][ Class:druid.sql.Connection >> Method: com.alibaba.druid.filter.logging.Log4jFilter.connectionLog(Log4jFilter.java:132) ]
+DEBUG:{conn-10005} pool-recycle
+2019-12-27 14:23:08 下午 [Thread: http-nio-8089-exec-1][ Class:druid.sql.Connection >> Method: com.alibaba.druid.filter.logging.Log4jFilter.connectionLog(Log4jFilter.java:132) ]
+DEBUG:{conn-10005} pool-connect
+2019-12-27 14:23:08 下午 [Thread: http-nio-8089-exec-1][ Class:druid.sql.Statement >> Method: com.alibaba.druid.filter.logging.Log4jFilter.statementLog(Log4jFilter.java:137) ]
+DEBUG:{conn-10005, pstmt-20001} created. select  * from  user
+2019-12-27 14:23:08 下午 [Thread: http-nio-8089-exec-1][ Class:druid.sql.Statement >> Method: com.alibaba.druid.filter.logging.Log4jFilter.statementLog(Log4jFilter.java:137) ]
+DEBUG:{conn-10005, pstmt-20001} Parameters : []
+2019-12-27 14:23:08 下午 [Thread: http-nio-8089-exec-1][ Class:druid.sql.Statement >> Method: com.alibaba.druid.filter.logging.Log4jFilter.statementLog(Log4jFilter.java:137) ]
+DEBUG:{conn-10005, pstmt-20001} Types : []
+2019-12-27 14:23:08 下午 [Thread: http-nio-8089-exec-1][ Class:druid.sql.Statement >> Method: com.alibaba.druid.filter.logging.Log4jFilter.statementLog(Log4jFilter.java:137) ]
+DEBUG:{conn-10005, pstmt-20001} executed. 1.435938 millis. select  * from  user
+2019-12-27 14:23:08 下午 [Thread: http-nio-8089-exec-1][ Class:druid.sql.ResultSet >> Method: com.alibaba.druid.filter.logging.Log4jFilter.resultSetLog(Log4jFilter.java:142) ]
+DEBUG:{conn-10005, pstmt-20001, rs-50001} open
+2019-12-27 14:23:08 下午 [Thread: http-nio-8089-exec-1][ Class:druid.sql.ResultSet >> Method: com.alibaba.druid.filter.logging.Log4jFilter.resultSetLog(Log4jFilter.java:142) ]
+DEBUG:{conn-10005, pstmt-20001, rs-50001} Header: [id, username, password]
+2019-12-27 14:23:08 下午 [Thread: http-nio-8089-exec-1][ Class:druid.sql.ResultSet >> Method: com.alibaba.druid.filter.logging.Log4jFilter.resultSetLog(Log4jFilter.java:142) ]
+DEBUG:{conn-10005, pstmt-20001, rs-50001} Result: [1, urchin, ruchin]
+2019-12-27 14:23:08 下午 [Thread: http-nio-8089-exec-1][ Class:druid.sql.ResultSet >> Method: com.alibaba.druid.filter.logging.Log4jFilter.resultSetLog(Log4jFilter.java:142) ]
+DEBUG:{conn-10005, pstmt-20001, rs-50001} closed
+2019-12-27 14:23:08 下午 [Thread: http-nio-8089-exec-1][ Class:druid.sql.Statement >> Method: com.alibaba.druid.filter.logging.Log4jFilter.statementLog(Log4jFilter.java:137) ]
+DEBUG:{conn-10005, pstmt-20001} closed
+2019-12-27 14:23:08 下午 [Thread: http-nio-8089-exec-1][ Class:druid.sql.Connection >> Method: com.alibaba.druid.filter.logging.Log4jFilter.connectionLog(Log4jFilter.java:132) ]
+DEBUG:{conn-10005} pool-recycle
+2019-12-27 14:36:29 下午 [Thread: http-nio-8089-exec-1][ Class:druid.sql.Connection >> Method: com.alibaba.druid.filter.logging.Log4jFilter.connectionLog(Log4jFilter.java:132) ]
+DEBUG:{conn-10001,procId-91} connected
+2019-12-27 14:36:29 下午 [Thread: http-nio-8089-exec-1][ Class:druid.sql.Connection >> Method: com.alibaba.druid.filter.logging.Log4jFilter.connectionLog(Log4jFilter.java:132) ]
+DEBUG:{conn-10002,procId-92} connected
+2019-12-27 14:36:29 下午 [Thread: http-nio-8089-exec-1][ Class:druid.sql.Connection >> Method: com.alibaba.druid.filter.logging.Log4jFilter.connectionLog(Log4jFilter.java:132) ]
+DEBUG:{conn-10003,procId-93} connected
+2019-12-27 14:36:29 下午 [Thread: http-nio-8089-exec-1][ Class:druid.sql.Connection >> Method: com.alibaba.druid.filter.logging.Log4jFilter.connectionLog(Log4jFilter.java:132) ]
+DEBUG:{conn-10004,procId-94} connected
+2019-12-27 14:36:29 下午 [Thread: http-nio-8089-exec-1][ Class:druid.sql.Connection >> Method: com.alibaba.druid.filter.logging.Log4jFilter.connectionLog(Log4jFilter.java:132) ]
+DEBUG:{conn-10005,procId-95} connected
+2019-12-27 14:36:29 下午 [Thread: http-nio-8089-exec-1][ Class:druid.sql.Connection >> Method: com.alibaba.druid.filter.logging.Log4jFilter.connectionLog(Log4jFilter.java:132) ]
+DEBUG:{conn-10005} pool-connect
+2019-12-27 14:36:29 下午 [Thread: http-nio-8089-exec-1][ Class:druid.sql.Statement >> Method: com.alibaba.druid.filter.logging.Log4jFilter.statementLog(Log4jFilter.java:137) ]
+DEBUG:{conn-10005, pstmt-20000} created. select  * from  user
+2019-12-27 14:36:29 下午 [Thread: http-nio-8089-exec-1][ Class:druid.sql.Statement >> Method: com.alibaba.druid.filter.logging.Log4jFilter.statementLog(Log4jFilter.java:137) ]
+DEBUG:{conn-10005, pstmt-20000} Parameters : []
+2019-12-27 14:36:29 下午 [Thread: http-nio-8089-exec-1][ Class:druid.sql.Statement >> Method: com.alibaba.druid.filter.logging.Log4jFilter.statementLog(Log4jFilter.java:137) ]
+DEBUG:{conn-10005, pstmt-20000} Types : []
+2019-12-27 14:36:29 下午 [Thread: http-nio-8089-exec-1][ Class:druid.sql.Statement >> Method: com.alibaba.druid.filter.logging.Log4jFilter.statementLog(Log4jFilter.java:137) ]
+DEBUG:{conn-10005, pstmt-20000} executed. 43.300099 millis. select  * from  user
+2019-12-27 14:36:29 下午 [Thread: http-nio-8089-exec-1][ Class:druid.sql.ResultSet >> Method: com.alibaba.druid.filter.logging.Log4jFilter.resultSetLog(Log4jFilter.java:142) ]
+DEBUG:{conn-10005, pstmt-20000, rs-50000} open
+2019-12-27 14:36:29 下午 [Thread: http-nio-8089-exec-1][ Class:druid.sql.ResultSet >> Method: com.alibaba.druid.filter.logging.Log4jFilter.resultSetLog(Log4jFilter.java:142) ]
+DEBUG:{conn-10005, pstmt-20000, rs-50000} Header: [id, username, password]
+2019-12-27 14:36:29 下午 [Thread: http-nio-8089-exec-1][ Class:druid.sql.ResultSet >> Method: com.alibaba.druid.filter.logging.Log4jFilter.resultSetLog(Log4jFilter.java:142) ]
+DEBUG:{conn-10005, pstmt-20000, rs-50000} Result: [1, urchin, ruchin]
+2019-12-27 14:36:29 下午 [Thread: http-nio-8089-exec-1][ Class:druid.sql.ResultSet >> Method: com.alibaba.druid.filter.logging.Log4jFilter.resultSetLog(Log4jFilter.java:142) ]
+DEBUG:{conn-10005, pstmt-20000, rs-50000} closed
+2019-12-27 14:36:29 下午 [Thread: http-nio-8089-exec-1][ Class:druid.sql.Statement >> Method: com.alibaba.druid.filter.logging.Log4jFilter.statementLog(Log4jFilter.java:137) ]
+DEBUG:{conn-10005, pstmt-20000} closed
+2019-12-27 14:36:29 下午 [Thread: http-nio-8089-exec-1][ Class:druid.sql.Connection >> Method: com.alibaba.druid.filter.logging.Log4jFilter.connectionLog(Log4jFilter.java:132) ]
+DEBUG:{conn-10005} pool-recycle
+2019-12-27 14:36:29 下午 [Thread: http-nio-8089-exec-1][ Class:druid.sql.Connection >> Method: com.alibaba.druid.filter.logging.Log4jFilter.connectionLog(Log4jFilter.java:132) ]
+DEBUG:{conn-10005} pool-connect
+2019-12-27 14:36:29 下午 [Thread: http-nio-8089-exec-1][ Class:druid.sql.Statement >> Method: com.alibaba.druid.filter.logging.Log4jFilter.statementLog(Log4jFilter.java:137) ]
+DEBUG:{conn-10005, pstmt-20001} created. select  * from  user
+2019-12-27 14:36:29 下午 [Thread: http-nio-8089-exec-1][ Class:druid.sql.Statement >> Method: com.alibaba.druid.filter.logging.Log4jFilter.statementLog(Log4jFilter.java:137) ]
+DEBUG:{conn-10005, pstmt-20001} Parameters : []
+2019-12-27 14:36:29 下午 [Thread: http-nio-8089-exec-1][ Class:druid.sql.Statement >> Method: com.alibaba.druid.filter.logging.Log4jFilter.statementLog(Log4jFilter.java:137) ]
+DEBUG:{conn-10005, pstmt-20001} Types : []
+2019-12-27 14:36:29 下午 [Thread: http-nio-8089-exec-1][ Class:druid.sql.Statement >> Method: com.alibaba.druid.filter.logging.Log4jFilter.statementLog(Log4jFilter.java:137) ]
+DEBUG:{conn-10005, pstmt-20001} executed. 0.971191 millis. select  * from  user
+2019-12-27 14:36:29 下午 [Thread: http-nio-8089-exec-1][ Class:druid.sql.ResultSet >> Method: com.alibaba.druid.filter.logging.Log4jFilter.resultSetLog(Log4jFilter.java:142) ]
+DEBUG:{conn-10005, pstmt-20001, rs-50001} open
+2019-12-27 14:36:29 下午 [Thread: http-nio-8089-exec-1][ Class:druid.sql.ResultSet >> Method: com.alibaba.druid.filter.logging.Log4jFilter.resultSetLog(Log4jFilter.java:142) ]
+DEBUG:{conn-10005, pstmt-20001, rs-50001} Header: [id, username, password]
+2019-12-27 14:36:29 下午 [Thread: http-nio-8089-exec-1][ Class:druid.sql.ResultSet >> Method: com.alibaba.druid.filter.logging.Log4jFilter.resultSetLog(Log4jFilter.java:142) ]
+DEBUG:{conn-10005, pstmt-20001, rs-50001} Result: [1, urchin, ruchin]
+2019-12-27 14:36:29 下午 [Thread: http-nio-8089-exec-1][ Class:druid.sql.ResultSet >> Method: com.alibaba.druid.filter.logging.Log4jFilter.resultSetLog(Log4jFilter.java:142) ]
+DEBUG:{conn-10005, pstmt-20001, rs-50001} closed
+2019-12-27 14:36:29 下午 [Thread: http-nio-8089-exec-1][ Class:druid.sql.Statement >> Method: com.alibaba.druid.filter.logging.Log4jFilter.statementLog(Log4jFilter.java:137) ]
+DEBUG:{conn-10005, pstmt-20001} closed
+2019-12-27 14:36:29 下午 [Thread: http-nio-8089-exec-1][ Class:druid.sql.Connection >> Method: com.alibaba.druid.filter.logging.Log4jFilter.connectionLog(Log4jFilter.java:132) ]
+DEBUG:{conn-10005} pool-recycle
