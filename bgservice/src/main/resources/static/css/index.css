@@ -1,0 +1,121 @@
+
+
+body{
+  background: url('../img/about/rick_morty.jpg') repeat ;
+}
+/* 内容宽度 */
+.m-container{
+    max-width: 72em !important;
+    margin: auto !important;
+}
+.m-container-mini{
+    max-width: 60em !important;
+    margin: auto !important;
+}
+/* padded 设置 */
+.m-padded-tb-mini{
+    padding-top: 0.2em !important;
+    padding-bottom: 0.2em !important;
+}
+.m-padded-tb-small{
+    padding-top: 0.5em !important;
+    padding-bottom: 0.5em !important;
+}
+.m-padded-tb{
+    padding-top: 1em !important;
+    padding-bottom:1em !important;
+}
+.m-padded-tb-large{
+    padding-top: 2em !important;
+    padding-bottom: 2em !important;
+}
+.m-padded-tb-big{
+    padding-top: 3em !important;
+    padding-bottom: 3em !important;
+}
+.m-padded-tb-huge{
+    padding-top: 4em !important;
+    padding-bottom: 4em !important;
+}
+.m-padded-tb-massive{
+    padding-top: 4em !important;
+    padding-bottom: 4em !important;
+}
+
+/* text */
+/* 字体大小 */
+.m-text-thin{
+    font-weight:300 !important;
+}
+/* 字间距 */
+.m-text-spaced{
+    letter-spacing  :3px !important;
+}
+/* 行间距 */
+.m-text-line{
+    line-height  :0.8;
+}
+
+.m-text{
+    font-weight: 300em !important;
+    letter-spacing:3px !important;
+    line-height:4;
+}
+
+/* dispaly */
+.m-inline-block{
+    display: inline-block !important;
+}
+
+/* magin */
+.m-magin-tb-tiny{
+    margin-top: 0.3em !important;
+    margin-bottom: 0.3em !important;
+}
+.m-magin-top-small{
+    margin-top: 0.5em !important;
+}
+.m-magin-top{
+    margin-top: 1em !important;
+}
+.m-magin-top-large{
+    margin-top: 2em !important;
+}
+
+/* 定义颜色 */
+.m-black{
+    color: black;
+}
+
+/* 透明度   opactiy*/
+.m-opactiy-mini{
+	opacity: 1 	!important; 
+}
+.m-opactiy-tiny{
+	opacity: 0.4 !important; 
+}
+
+/* 位置  position */
+.m-right-top{
+    position:absolute;
+    top: 0em;
+    right: 0em;
+
+}
+/*  */
+.m-moblie-show{
+    display: none !important;
+}
+
+
+
+
+/* 媒体查询  当屏幕过小时  隐藏导航*/
+@media screen and (max-width:758px){
+    .m-moblie-hide{
+        display:  none !important;
+    }
+    .m-moblie-show{
+        display: block !important;
+    }
+}
