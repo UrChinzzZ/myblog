@@ -1,25 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="4b8f8f34-295f-4207-8a3e-659dee3e0320" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/test.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/bgservice/src/main/resources/static/css/commonCss.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/bgservice/src/main/resources/static/css/index.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/bgservice/src/main/resources/static/css/semantic.min.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/bgservice/src/main/resources/static/img/about/kangya.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/bgservice/src/main/resources/static/img/about/tilte.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/bgservice/src/main/resources/static/img/about/wechat.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/bgservice/src/main/resources/static/img/github.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/bgservice/src/main/resources/static/js/common_Css.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/bgservice/src/main/resources/static/js/common_Js.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/bgservice/src/main/resources/static/js/index.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/bgservice/src/main/resources/templates/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/encodings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/ruchin/log/debug.log" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/ruchin/log/debug.log" afterDir="false" />
-    </list>
+    <list default="true" id="4b8f8f34-295f-4207-8a3e-659dee3e0320" name="Default Changelist" comment="" />
     <ignored path="$PROJECT_DIR$/bgservice/target/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -31,8 +13,10 @@
     <session id="1672176905">
       <usages-collector id="statistics.lifecycle.project">
         <counts>
+          <entry key="project.closed" value="1" />
+          <entry key="project.open.time.37" value="1" />
           <entry key="project.open.time.4" value="1" />
-          <entry key="project.opened" value="1" />
+          <entry key="project.opened" value="2" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.open">
@@ -53,6 +37,16 @@
           <entry key="XML" value="1" />
         </counts>
       </usages-collector>
+      <usages-collector id="statistics.file.extensions.edit">
+        <counts>
+          <entry key="txt" value="32" />
+        </counts>
+      </usages-collector>
+      <usages-collector id="statistics.file.types.edit">
+        <counts>
+          <entry key="PLAIN_TEXT" value="32" />
+        </counts>
+      </usages-collector>
     </session>
   </component>
   <component name="FileEditorManager">
@@ -60,7 +54,7 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/bgservice/src/main/java/com/urchin/bg/BgApplication.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="240">
+            <state relative-caret-position="180">
               <caret line="8" column="28" selection-start-line="8" selection-start-column="28" selection-end-line="8" selection-end-column="28" />
               <folding>
                 <element signature="imports" expanded="true" />
@@ -84,7 +78,7 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/bgservice/pom.xml">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="767">
+            <state relative-caret-position="2400">
               <caret line="80" column="20" selection-start-line="80" selection-start-column="20" selection-end-line="80" selection-end-column="20" />
             </state>
           </provider>
@@ -163,6 +157,8 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="AndroidView" />
+      <pane id="PackagesPane" />
       <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
@@ -243,8 +239,6 @@
           <select />
         </subPane>
       </pane>
-      <pane id="AndroidView" />
-      <pane id="PackagesPane" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -325,6 +319,7 @@
       <workItem from="1577280276149" duration="177000" />
       <workItem from="1577412320433" duration="9649000" />
       <workItem from="1577623471689" duration="1766000" />
+      <workItem from="1577892289323" duration="105000" />
     </task>
     <task id="LOCAL-00001" summary="测试">
       <created>1577257853763</created>
@@ -340,11 +335,18 @@
       <option name="project" value="LOCAL" />
       <updated>1577280350459</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="更新博客主页  新添加归档页面，和标签页面">
+      <created>1577892382088</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1577892382088</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="13684000" />
+    <option name="totallyTimeSpent" value="13789000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -357,9 +359,8 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="-7" y="-7" width="1550" height="838" extended-state="6" />
-    <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.25871313" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.26206434" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Image Layers" order="2" />
       <window_info id="Designer" order="3" />
@@ -382,7 +383,6 @@
       <window_info anchor="bottom" id="Spring" order="12" sideWeight="0.49932975" weight="0.3286119" />
       <window_info anchor="bottom" id="Java Enterprise" order="13" sideWeight="0.49932975" weight="0.3286119" />
       <window_info anchor="bottom" id="Messages" order="14" sideWeight="0.49865952" weight="0.3286119" />
-      <window_info anchor="right" id="Maven Projects" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
@@ -393,6 +393,7 @@
       <window_info anchor="right" id="Palette&#9;" order="7" />
       <window_info anchor="right" id="Database" order="8" />
       <window_info anchor="right" id="Bean Validation" order="9" />
+      <window_info anchor="right" id="Maven Projects" order="10" />
     </layout>
     <layout-to-restore>
       <window_info id="Web" order="0" side_tool="true" />
@@ -440,7 +441,8 @@
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="测试" />
-    <option name="LAST_COMMIT_MESSAGE" value="测试" />
+    <MESSAGE value="更新博客主页  新添加归档页面，和标签页面" />
+    <option name="LAST_COMMIT_MESSAGE" value="更新博客主页  新添加归档页面，和标签页面" />
   </component>
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/bgservice/src/main/java/com/urchin/springboot/config/DruidConfig.java" />
@@ -545,20 +547,20 @@
     <entry file="file://$PROJECT_DIR$/bgservice/src/main/java/com/urchin/log/warn.log">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
-    <entry file="file://$PROJECT_DIR$/bgservice/pom.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="767">
-          <caret line="80" column="20" selection-start-line="80" selection-start-column="20" selection-end-line="80" selection-end-column="20" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/bgservice/src/main/java/com/urchin/bg/BgApplication.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="240">
+        <state relative-caret-position="180">
           <caret line="8" column="28" selection-start-line="8" selection-start-column="28" selection-end-line="8" selection-end-column="28" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/bgservice/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="2400">
+          <caret line="80" column="20" selection-start-line="80" selection-start-column="20" selection-end-line="80" selection-end-column="20" />
         </state>
       </provider>
     </entry>

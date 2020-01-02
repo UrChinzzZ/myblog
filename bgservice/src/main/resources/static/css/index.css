@@ -12,10 +12,14 @@ body{
     max-width: 60em !important;
     margin: auto !important;
 }
+.m-container-large{
+    max-width: 80em !important;
+    margin: auto !important;
+}
 /* padded 设置 */
 .m-padded-tb-mini{
-    padding-top: 0.2em !important;
-    padding-bottom: 0.2em !important;
+    padding-top: 0.1em !important;
+    padding-bottom: 0.1em !important;
 }
 .m-padded-tb-small{
     padding-top: 0.5em !important;
@@ -45,6 +49,9 @@ body{
     padding-left: 4em !important;
     padding-right: 4em !important;  
 }
+.m-padded-small{
+    padding: 0.3em !important;
+}
 /* text */
 /* 字体大小 */
 .m-text-thin{
@@ -61,8 +68,13 @@ body{
 
 .m-text{
     font-weight: 300em !important;
-    letter-spacing:3px !important;
-    line-height:4;
+    letter-spacing:2px !important;
+}
+.m-text-about{
+    font-weight: 300em !important;
+    letter-spacing:2px !important;
+    letter-spacing  :3px !important;
+    opacity: 0.4 !important; 
 }
 
 /* dispaly */
@@ -131,4 +143,13 @@ body{
     .m-moblie-wide{
         width: 100% !important;
     }
+    .m-moblie-lr-clear{ 
+        padding-right: 0 !important;
+        padding-left: 0 !important;
+    }
+}
+/* shadow */
+.m-shadow-small{
+    -webkit-box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2) !important;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2) !important;
 }

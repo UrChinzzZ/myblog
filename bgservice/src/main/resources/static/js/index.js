@@ -8,3 +8,11 @@ $('#payButton').popup({
     on:'click',
     position:'bottom center'
 })
+// 弹出QQ号码
+$('.qq').popup()
+//弹出微信二维码
+$('#wechat').popup({
+    popup:$('#wechat-qr'),
+    on:'hover',
+    position:'bottom center'
+})
