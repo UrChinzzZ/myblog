@@ -16,3 +16,7 @@ $('#wechat').popup({
     on:'hover',
     position:'bottom center'
 })
+//后台管理点击事件
+$('.ui.dropdown')
+  .dropdown()
+;
