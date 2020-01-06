@@ -20,3 +20,36 @@ $('#wechat').popup({
 $('.ui.dropdown')
   .dropdown()
 ;
+//form表单验证
+$('.ui.form').form({
+    fields:{
+        title:{
+            //name值必须和表单内部属性值一致
+            indetifier:"title",
+            rules:[{
+                type:'empty',
+                prompt:"标题:请输入标题"
+            }]
+        }
+    }
+})
+//markdown编辑器
+var contentEditor;
+$(function() {
+    contentEditor = editormd("md-content", {
+        width   : "100%",
+        height  : 640,
+        syncScrolling : "single",
+        path    : "../lib/editormd/lib/"
+    });
+    
+    /*
+    // or
+    testEditor = editormd({
+        id      : "test-editormd",
+        width   : "90%",
+        height  : 640,
+        path    : "../lib/"
+    });
+    */
+});
