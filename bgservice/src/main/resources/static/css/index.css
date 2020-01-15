@@ -52,6 +52,10 @@ body{
 .m-padded-small{
     padding: 0.3em !important;
 }
+
+.m-padded{
+    padding: 1em !important;
+}
 /* text */
 /* 字体大小 */
 .m-text-thin{
@@ -137,8 +141,8 @@ body{
         display: block !important;
     }
     .m-padded-lr-responsive{
-        padding-right: 0 !important;
-        padding-left: 0 !important;
+        padding-right: 1em !important;
+        padding-left: 1em !important;
     }
     .m-moblie-wide{
         width: 100% !important;
@@ -152,5 +156,15 @@ body{
 .m-shadow-small{
     -webkit-box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2) !important;
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2) !important;
+}
+
+/*    postion */
+.m-fixed{
+    position: fixed  !important;
+    z-index: 10 !important;
+}
+.rigth-buttom{
+    bottom: 0 !important;
+    right: 0 !important;
 }
 

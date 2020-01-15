@@ -4,3 +4,11 @@ document.write('<link rel="stylesheet" href="https://cdn.jsdelivr.net/semantic-u
 document.write('<link rel="stylesheet" href="../static/css/index.css">')
 //引入markdown css
 document.write('<link rel="stylesheet" href="../lib/editormd/css/editormd.css">')
+//        typo  css样式
+document.write('<link rel="stylesheet" href="../static/css/typo.css">')
+//        animate css样式
+document.write('<link rel="stylesheet" href="../static/css/animate.css">')
+//引入prism css
+document.write('<link rel="stylesheet" href="../lib/prismjs/prism.css">')
+//引入tocbot.css  目录生成
+document.write('<link rel="stylesheet" href="../lib/tocbot/tocbot.css">')
